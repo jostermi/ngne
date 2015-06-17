@@ -6,7 +6,7 @@ import json
 import requests
 
 my_headers = {'content-type': 'application/json-rpc'}
-url = "http://10.87.6.DDD/ins"
+url = "http://10.87.6.XXX/ins"
 username = "admin"
 password = "Cisco321"
 
