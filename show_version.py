@@ -6,9 +6,9 @@ import json
 import requests
 
 my_headers = {'content-type': 'application/json-rpc'}
-url = "http://10.87.6.XXX/ins"
+url = "http://192.168.103.3/ins"
 username = "admin"
-password = "Cisco321"
+password = "cisco"
 
 
 payload = [{'jsonrpc': '2.0', 'method': 'cli', 'params': ['show version',1], 'id': '1'}]
